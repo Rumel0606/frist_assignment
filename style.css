@@ -194,8 +194,8 @@ nav ul li a{
   .footer_content{
     display: flex;
     justify-content: space-between;
-  padding: 120px 100px;
-  border-bottom: 1px solid rgba(109, 105, 105, 0.507);
+    padding: 100px 110px;
+    border-bottom: 1px solid rgba(109, 105, 105, 0.507);
  }
  footer{
       background-color:#001931;  
