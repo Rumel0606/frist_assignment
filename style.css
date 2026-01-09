@@ -191,31 +191,30 @@ nav ul li a{
     margin-bottom:-3px;
  }
  /* Footer Section styling */
-  .footer_content{
-    display: flex;
-    justify-content: space-between;
-    padding: 100px 110px;
-    border-bottom: 1px solid rgba(109, 105, 105, 0.507);
- }
+
  footer{
-      background-color:#001931;  
+    background-color: #001931;
  }
-  footer img {
+ .footer_content img {
     width: 100px;
-    height:auto;
-  }
-.social-section img{
-    width: 16px;
-    margin-right: 8px;
-}
-.social-section p{
+ }
+ .social-section img {
+    width:20px;
+ }
+ .social-section p {
     color: white;
-    margin-bottom: 20px;
-    font-size: 15px;
-}
-footer h6{
+ }
+ .footer-containr-main{
+   border-bottom:1px solid rgba(142, 139, 139, 0.584) ;
+ }
+ .footer_content{
+     height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .footer-containr-main, h6{
+    color: white;
     text-align: center;
-  color: #fff;
-  padding: 20px 4px;
- 
-}
+    padding: 10px 0;
+ }
